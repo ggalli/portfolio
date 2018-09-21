@@ -1,0 +1,8 @@
+.header{
+  background: $bg-darkblue;
+  .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+  }
+}
