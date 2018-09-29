@@ -1,0 +1,17 @@
+.about{
+    text-align: center;
+    .wrapper{
+        .logo{
+            width: 90px;
+            height: 90px;
+            margin-bottom: 40px;
+        }
+        p{
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+        .button{
+            margin-top: 15px;
+        }
+    }
+}
