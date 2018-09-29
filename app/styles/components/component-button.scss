@@ -1,0 +1,12 @@
+.button{
+    color: #fff;
+    background: transparent;
+    border: 1px solid $green;
+    padding: 10px 20px;
+    transition: 0.3s;
+    outline: none;
+    &:hover{
+        background: $green;
+        cursor: pointer;
+    }
+}
