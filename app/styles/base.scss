@@ -1,3 +1,10 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: $font !important; 
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -11,12 +18,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	color: #fff;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -25,6 +31,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background: $bg-gray;
 }
 ol, ul {
 	list-style: none;
@@ -41,16 +48,63 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+section{
+	padding: 40px 0;
+}
 h1{
-  font-size: 3em;
+	font-size: 3em;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 1.5;
 }
 h2{
-  font-size: 1.5em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+h3{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 3px;
+	text-align: center;
+}
+h4{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	text-align: center;
+	line-height: 1.5;
+}
+h5{
+	text-transform: uppercase;
+}
+h6{
+	font-size: .9em;
+	font-weight: 600;
 }
 p{
-  font-size: 14px;
+	font-size: 0.9em;
+	line-height: 2;
+}
+a{
+	text-decoration: none;
 }
 .wrapper{
-  max-width: 900px;
-  padding: 20px;
+	max-width: 900px;
+	padding: 20px 5%;
+}
+.container{
+	margin-top: 50px;
+}
+.text-decoration{
+	color: $green;
+}
+.box{
+	margin: 0 5%;
+	background: $bg-darkblue;
+	padding: 40px 5%;
+	-webkit-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.5);
 }
