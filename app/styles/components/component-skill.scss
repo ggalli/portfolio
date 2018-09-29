@@ -1,0 +1,12 @@
+.skill{
+    list-style: none;
+    margin-top: 30px;
+    h5{
+        color: $font-gray;
+        margin-bottom: 10px;
+    }
+    .level{
+        height: 15px;
+        background: $green;
+    }
+}
