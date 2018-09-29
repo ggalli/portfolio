@@ -1,8 +1,17 @@
-@import 'https://fonts.googleapis.com/css?family=Rubik+Mono+One';
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400';
+// @import 'https://fonts.googleapis.com/css?family=Rubik+Mono+One';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900';
 
-@import 'base.scss';
 @import 'variables.scss';
+@import 'base.scss';
 @import 'components/component-header.scss';
-@import 'components/logo-ggg.scss';
 @import 'components/burger-menu.scss';
+@import 'components/component-hero.scss';
+@import 'components/component-about.scss';
+@import 'components/component-button.scss';
+@import 'components/component-qualifications.scss';
+@import 'components/component-skill.scss';
+@import 'components/component-portfolio.scss';
+@import 'components/component-timeline.scss';
+@import 'components/component-experience.scss';
+@import 'components/component-contact.scss';
+@import 'components/component-footer.scss';
