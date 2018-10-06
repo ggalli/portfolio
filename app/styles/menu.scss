@@ -1,0 +1,36 @@
+.bm-menu{
+    width: 100% !important;
+    background: $bg-darkblue;
+    position: fixed !important;
+    .close{
+        position: absolute;
+        right: 0;
+        fill: $green;
+        padding: 20px;
+    }
+    ul{
+        // height: 100%;
+        text-align: center;
+        padding-top: 100px;
+    }
+    &-item{
+        padding: 20px 0;
+        margin: 0 50px;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 600;
+        a{
+            color: $font-gray;
+        }
+    }
+}
+
+.burger-icon{
+    position: absolute;
+    right: 0;
+    padding: 25px;
+    z-index: 200;
+    svg{
+        width: 30px;
+    }
+}
