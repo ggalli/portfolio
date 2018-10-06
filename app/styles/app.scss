@@ -3,8 +3,10 @@
 
 @import 'variables.scss';
 @import 'base.scss';
+@import 'ember-burger-menu';
+@import 'menu';
+
 @import 'components/component-header.scss';
-@import 'components/burger-menu.scss';
 @import 'components/component-hero.scss';
 @import 'components/component-about.scss';
 @import 'components/component-button.scss';
