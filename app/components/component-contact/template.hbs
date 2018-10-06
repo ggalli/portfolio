@@ -4,17 +4,19 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae numquam sit optio debitis dignissimos tempore eius cumque ducimus.</p>
         <span>guilhermegalli5@gmail.com</span>
         <span>Tel: (11) 94586-5050</span>
-        <form action="">
-            {{input class='input-field' placeholder='Nome'}}
-            {{input class='input-field' type='email' placeholder='Email'}}
-            {{textarea class='input-field' placeholder='Mensagem' rows='5'}}
+        <form action="https://formspree.io/guilhermegalli5@gmail.com" method="POST">
+            {{input class='input-field' name='nome' placeholder='Nome' required=true}}
+            {{input class='input-field' name='email' type='email' placeholder='Email' required=true}}
+            {{textarea class='input-field' name='mensagem' placeholder='Mensagem' rows='5' required=true}}
             {{component-button type='submit' value='ENVIAR'}}
+            {{!-- <input type="hidden" name="_next" value="https://site.io/thanks.html" /> --}}
+            <input type="hidden" name="_language" value="pt-BR" />
         </form>
         <div class="container">
-            {{logo-github}}
-            {{logo-linkedin}}
-            {{logo-facebook}}
-            {{logo-instagram}}
+            <a target="_blank" href="https://github.com/ggalli">{{logo-github}}</a>
+            <a target="_blank" href="https://www.linkedin.com/in/guilherme-galli/">{{logo-linkedin}}</a>
+            <a target="_blank" href="https://www.facebook.com/guilherme.galli.3">{{logo-facebook}}</a>
+            <a target="_blank" href="https://www.instagram.com/guiggalli/">{{logo-instagram}}</a>
         </div>
     </div>
 </section>
