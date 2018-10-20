@@ -3,8 +3,8 @@
 
 @import 'variables.scss';
 @import 'base.scss';
-@import 'menu';
 
+@import 'components/menu-mobile';
 @import 'components/component-header.scss';
 @import 'components/component-hero.scss';
 @import 'components/component-about.scss';
