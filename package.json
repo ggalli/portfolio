@@ -19,7 +19,6 @@
   "devDependencies": {
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^3.0.0",
-    "ember-burger-menu": "^3.3.2",
     "ember-cli": "~3.3.0",
     "ember-cli-app-version": "^3.0.0",
     "ember-cli-babel": "^6.6.0",
@@ -43,7 +42,7 @@
     "eslint-plugin-ember": "^5.0.0",
     "loader.js": "^4.2.3",
     "qunit-dom": "^0.6.2",
-    "sass": "^1.13.4"
+    "sass": "^1.14.3"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"

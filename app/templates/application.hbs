@@ -1,28 +1,3 @@
-{{#burger-menu itemAnimation='stack' position='right' as |burger|}}
-    {{#burger.menu itemTagName="li" dismissOnItemClick='true' as |menu|}}
-        <a class="close" {{action burger.state.actions.close}}>{{close-icon}}</a>
-        <ul>
-            {{#menu.item}}
-                <a href="#">Qualificações</a>
-            {{/menu.item}}
-
-            {{#menu.item}}
-                <a href="#">Portfólio</a>
-            {{/menu.item}}
-
-            {{#menu.item}}
-                <a href="#">Experiência</a>
-            {{/menu.item}}
-
-            {{#menu.item}}
-                <a href="#">Contato</a>
-            {{/menu.item}}
-        </ul>
-    {{/burger.menu}}
-    {{#burger.outlet}}
-        <a class="burger-icon" {{action burger.state.actions.toggle}}>{{burger-icon}}</a>
-        {{component-header}}
-        {{outlet}}
-        {{component-footer}}
-    {{/burger.outlet}}
-  {{/burger-menu}}
+{{component-header}}
+{{outlet}}
+{{component-footer}}
